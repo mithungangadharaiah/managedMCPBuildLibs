@@ -1,0 +1,51 @@
+{
+  "name": "dynatrace-managed-events-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Dynatrace Managed with Events API support",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "dynatrace-managed-events-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "dynatrace",
+    "managed",
+    "mcp",
+    "model-context-protocol",
+    "events",
+    "events-api",
+    "api"
+  ],
+  "author": "Dynatrace Managed Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.1",
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.24.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}

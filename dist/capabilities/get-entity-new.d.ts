@@ -1,0 +1,1 @@
+//# sourceMappingURL=get-entity-new.d.ts.map

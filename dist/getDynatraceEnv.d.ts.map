@@ -1,0 +1,1 @@
+{"version":3,"file":"getDynatraceEnv.d.ts","sourceRoot":"","sources":["../src/getDynatraceEnv.ts"],"names":[],"mappings":"AAAA;;;GAGG;AACH,MAAM,WAAW,YAAY;IAC3B,GAAG,EAAE,MAAM,CAAC;IACZ,aAAa,EAAE,MAAM,CAAC;IACtB,QAAQ,EAAE,MAAM,CAAC;CAClB;AAED;;GAEG;AACH,wBAAgB,eAAe,IAAI,YAAY,CA6B9C"}

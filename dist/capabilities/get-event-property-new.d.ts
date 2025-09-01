@@ -1,0 +1,1 @@
+//# sourceMappingURL=get-event-property-new.d.ts.map

@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "dynatrace-managed-events": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "DYNATRACE_MANAGED_URL": "${env:DYNATRACE_MANAGED_URL}",
+        "DYNATRACE_ENVIRONMENT_ID": "${env:DYNATRACE_ENVIRONMENT_ID}",
+        "DYNATRACE_API_TOKEN": "${env:DYNATRACE_API_TOKEN}",
+        "REQUEST_TIMEOUT": "${env:REQUEST_TIMEOUT}",
+        "MAX_RETRIES": "${env:MAX_RETRIES}",
+        "LOG_LEVEL": "${env:LOG_LEVEL}"
+      }
+    }
+  }
+}
